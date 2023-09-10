@@ -125,8 +125,6 @@ def main():
         
         time.sleep(bot_speed)  # Sleep for user-defined seconds
 
-    # ... (previous code)
-
 # Streamlit setup
 st.title("Crypto Trading Bot with Prediction")
 st.sidebar.title("Bot Settings")
@@ -153,8 +151,6 @@ if predict_button:
     st.write(f"The BTC price on {btc_specific_date} was predicted to be ${btc_predicted_price:.2f}")
     st.write(f"The ETH price on {eth_specific_date} was predicted to be ${eth_predicted_price:.2f}")
     st.write(f"The LTC price on {ltc_specific_date} was predicted to be ${ltc_predicted_price:.2f}")
-
-
 
 
 if __name__ == '__main__':
